@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/diary"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/diary_title"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="标题"
+        android:background="#FFFFFF"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/diary_author"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="author"
+        android:editable="false"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/diary_date"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Date"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/diary_content"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:hint="输入你的内容"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/diary_pictureChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择照片"
+        />
+
+    <ImageView
+        android:id="@+id/diary_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
+
